@@ -562,6 +562,7 @@ void ConnImpl::setErrState ( int errNum )
       case DPI_CONNERR_ORA_NOT_LOGGED_ON:
       case DPI_CONNERR_MAX_IDLE_TIMEOUT:
       case DPI_CONNERR_DRCP_ILLEGAL_CALL:
+      case 3135:
         dropConn_ = true;
         break;
 
